@@ -70,6 +70,21 @@ $(document).ready(function(){
         $("#perk4").attr("src","images/perk.png");
     });
 
+    //search bar
+
+    $("#searchbar").keyup(function(){ 
+        let input = $("#searchbar").val().toUpperCase();
+        let x = $(".icons");
+
+        for(let i = 0; i < x.length; i++){
+            if(!x[i].id.toUpperCase().includes(input)){
+                x[i].style.display="none";
+            } else {
+                x[i].style.display="";
+            }
+        }
+    });
+
     //clearing perk by clicking main perk deck
 
     $("#perk1").click(function(){
