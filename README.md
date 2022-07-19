@@ -9,3 +9,4 @@ Add Tally Marks for Totems cleansed
 In the future:
 
 Favorites box? Pick common perks you see to sit in the favorites box for easy access
+Actually put it on a website
