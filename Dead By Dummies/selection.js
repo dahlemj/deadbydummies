@@ -32,27 +32,27 @@ $(document).ready(function(){
     function swapImage(imgName){
 
         //checks img name with imgName
-        if($("#perk1").attr("src") == "images/" + imgName){
-            $("#perk1").attr("src","images/perk.png");
+        if($("#perk1").attr("src") == "images/perks/" + imgName){
+            $("#perk1").attr("src","images/perks/perk.png");
             perk1 = false;
             return;
-        }else if($("#perk2").attr("src") == "images/" + imgName){
-            $("#perk2").attr("src","images/perk.png");
+        }else if($("#perk2").attr("src") == "images/perks/" + imgName){
+            $("#perk2").attr("src","images/perks/perk.png");
             perk2 = false;
             return;
-        }else if($("#perk3").attr("src") == "images/" + imgName){
-            $("#perk3").attr("src","images/perk.png");
+        }else if($("#perk3").attr("src") == "images/perks/" + imgName){
+            $("#perk3").attr("src","images/perks/perk.png");
             perk3 = false;
             return;
-        }else if($("#perk4").attr("src") == "images/" + imgName){
-            $("#perk4").attr("src","images/perk.png");
+        }else if($("#perk4").attr("src") == "images/perks/" + imgName){
+            $("#perk4").attr("src","images/perks/perk.png");
             perk4 = false;
             return;
         }
 
         let slot = checkSlot();
         if(slot != ""){
-            $(slot).attr("src", "images/" + imgName);
+            $(slot).attr("src", "images/perks/" + imgName);
         }
     }
 
@@ -64,10 +64,10 @@ $(document).ready(function(){
         perk3 = false;
         perk4 = false;
 
-        $("#perk1").attr("src","images/perk.png"); 
-        $("#perk2").attr("src","images/perk.png");   
-        $("#perk3").attr("src","images/perk.png");    
-        $("#perk4").attr("src","images/perk.png");
+        $("#perk1").attr("src","images/perks/perk.png"); 
+        $("#perk2").attr("src","images/perks/perk.png");   
+        $("#perk3").attr("src","images/perks/perk.png");    
+        $("#perk4").attr("src","images/perks/perk.png");
     });
 
     //search bar
@@ -89,22 +89,22 @@ $(document).ready(function(){
 
     $("#perk1").click(function(){
         perk1 = false;
-        $("#perk1").attr("src","images/perk.png"); 
+        $("#perk1").attr("src","images/perks/perk.png"); 
     });
 
     $("#perk2").click(function(){
         perk2 = false;
-        $("#perk2").attr("src","images/perk.png"); 
+        $("#perk2").attr("src","images/perks/perk.png"); 
     });
 
     $("#perk3").click(function(){
         perk3 = false;
-        $("#perk3").attr("src","images/perk.png"); 
+        $("#perk3").attr("src","images/perks/perk.png"); 
     });
 
     $("#perk4").click(function(){
         perk4 = false;
-        $("#perk4").attr("src","images/perk.png"); 
+        $("#perk4").attr("src","images/perks/perk.png"); 
     });
 
     //replacing blank icon with clicked icon
@@ -149,14 +149,6 @@ $(document).ready(function(){
         swapImage("brutalStrength.png");
     });
 
-    $("#callOfBrine").click(function(){
-        swapImage("callOfBrine.png");
-    });
-
-    $("#claustrophobia").click(function(){
-        swapImage("claustrophobia.png");
-    });
-
     $("#corruptIntervention").click(function(){
         swapImage("corruptIntervention.png");
     });
@@ -173,21 +165,12 @@ $(document).ready(function(){
         swapImage("darkDevotion.png");
     });
 
-    $("#darknessRevealed").click(function(){
-        swapImage("darknessRevealed.png");
-    });
-
-
     $("#deadlock").click(function(){
         swapImage("deadlock.png");
     });
 
     $("#deadManSwitch").click(function(){
         swapImage("deadManSwitch.png");
-    });
-
-    $("#deathbound").click(function(){
-        swapImage("deathbound.png");
     });
 
     $("#deerstalker").click(function(){
@@ -214,20 +197,12 @@ $(document).ready(function(){
         swapImage("dyinglight.png");
     });
 
-    $("#enduring").click(function(){
-        swapImage("enduring.png");
-    });
-
     $("#eruption").click(function(){
         swapImage("eruption.png");
     });
 
     $("#fearmonger").click(function(){
         swapImage("fearmonger.png");
-    });
-
-    $("#fireUp").click(function(){
-        swapImage("fireUp.png");
     });
 
     $("#forcedPenance").click(function(){
@@ -269,10 +244,6 @@ $(document).ready(function(){
     $("#hexDevourHope").click(function(){
         swapImage("hexDevourHope.png");
     });
-
-    $("#hexPentimento").click(function(){
-        swapImage("hexPentimento.png");
-    });
     
     $("#HexPlaything").click(function(){
         swapImage("HexPlaything.png");
@@ -286,21 +257,12 @@ $(document).ready(function(){
         swapImage("hexUndying.png");
     });
 
-    $("#hoarder").click(function(){
-        swapImage("hoarder.png");
-    });
-
-
     $("#HuntressLullaby").click(function(){
         swapImage("HuntressLullaby.png");
     });
 
     $("#hysteria").click(function(){
         swapImage("hysteria.png");
-    });
-
-    $("#imAllEars").click(function(){
-        swapImage("imAllEars.png");
     });
 
     $("#infectiousFright").click(function(){
@@ -467,20 +429,12 @@ $(document).ready(function(){
         swapImage("tinkerer.png");
     });
 
-    $("#trailOfTorment").click(function(){
-        swapImage("trailOfTorment.png");
-    });
-
     $("#unnervingPresence").click(function(){
         swapImage("unnervingPresence.png");
     });
 
     $("#unrelenting").click(function(){
         swapImage("unrelenting.png");
-    });
-
-    $("#whispers").click(function(){
-        swapImage("whispers.png");
     });
 
     $("#zanshinTactics").click(function(){
