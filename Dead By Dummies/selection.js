@@ -164,6 +164,10 @@ $(document).ready(function(){
     $("#darkDevotion").click(function(){
         swapImage("darkDevotion.png");
     });
+    
+    $("#darknessRevealed").click(function(){
+        swapImage("darknessRevealed.png");
+    });
 
     $("#deadlock").click(function(){
         swapImage("deadlock.png");
