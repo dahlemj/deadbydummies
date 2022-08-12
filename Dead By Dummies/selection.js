@@ -148,6 +148,14 @@ $(document).ready(function(){
     $("#brutalStrength").click(function(){
         swapImage("brutalStrength.png");
     });
+    
+     $("#callOfBrine").click(function(){
+        swapImage("callOfBrine.png");
+    });
+    
+     $("#claustrophobia").click(function(){
+        swapImage("claustrophobia.png");
+    });
 
     $("#corruptIntervention").click(function(){
         swapImage("corruptIntervention.png");
@@ -176,6 +184,10 @@ $(document).ready(function(){
     $("#deadManSwitch").click(function(){
         swapImage("deadManSwitch.png");
     });
+    
+     $("#deathbound").click(function(){
+        swapImage("deathbound.png");
+    });
 
     $("#deerstalker").click(function(){
         swapImage("deerstalker.png");
@@ -200,6 +212,10 @@ $(document).ready(function(){
     $("#dyinglight").click(function(){
         swapImage("dyinglight.png");
     });
+    
+    $("#enduring").click(function(){
+        swapImage("enduring.png");
+    });
 
     $("#eruption").click(function(){
         swapImage("eruption.png");
@@ -207,6 +223,10 @@ $(document).ready(function(){
 
     $("#fearmonger").click(function(){
         swapImage("fearmonger.png");
+    });
+    
+    $("#fireUp").click(function(){
+        swapImage("fireUp.png");
     });
 
     $("#forcedPenance").click(function(){
@@ -244,6 +264,10 @@ $(document).ready(function(){
     $("#HexCrowdControl").click(function(){
         swapImage("HexCrowdControl.png");
     });
+    
+    $("#HexPentimento").click(function(){
+        swapImage("HexPentimento.png");
+    });
 
     $("#hexDevourHope").click(function(){
         swapImage("hexDevourHope.png");
@@ -260,6 +284,11 @@ $(document).ready(function(){
     $("#hexUndying").click(function(){
         swapImage("hexUndying.png");
     });
+    
+    $("#hoarder").click(function(){
+        swapImage("hoarder.png");
+    });
+
 
     $("#HuntressLullaby").click(function(){
         swapImage("HuntressLullaby.png");
@@ -268,6 +297,11 @@ $(document).ready(function(){
     $("#hysteria").click(function(){
         swapImage("hysteria.png");
     });
+    
+    $("#imAllEars").click(function(){
+        swapImage("imAllEars.png");
+    });
+
 
     $("#infectiousFright").click(function(){
         swapImage("infectiousFright.png");
@@ -315,6 +349,10 @@ $(document).ready(function(){
 
     $("#monitorAndAbuse").click(function(){
         swapImage("MonitorAndAbuse.png");
+    });
+    
+    $("#monstrousShrine").click(function(){
+        swapImage("monstrousShrine.png");
     });
 
     $("#nemesis").click(function(){
@@ -372,11 +410,19 @@ $(document).ready(function(){
     $("#saveTheBestForLast").click(function(){
         swapImage("SaveTheBestForLast.png");
     });
+    
+    $("#scourgeHookFloodsOfRage").click(function(){
+        swapImage("scourgeHookFloodsOfRage.png");
+    });
 
     $("#ScourgeHookGiftOfPain").click(function(){
         swapImage("ScourgeHookGiftOfPain.png");
     });
 
+    $("#septicTouch").click(function(){
+        swapImage("septicTouch.png");
+    }); 
+   
     $("#shadowborn").click(function(){
         swapImage("shadowborn.png");
     });
@@ -432,6 +478,10 @@ $(document).ready(function(){
     $("#tinkerer").click(function(){
         swapImage("tinkerer.png");
     });
+    
+     $("#trailOfTorment").click(function(){
+        swapImage("trailOfTorment.png");
+    });
 
     $("#unnervingPresence").click(function(){
         swapImage("unnervingPresence.png");
@@ -439,6 +489,10 @@ $(document).ready(function(){
 
     $("#unrelenting").click(function(){
         swapImage("unrelenting.png");
+    });
+    
+    $("#whispers").click(function(){
+        swapImage("whispers.png");
     });
 
     $("#zanshinTactics").click(function(){
